@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Data Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-slate-950">
+<div class=" p-8 bg-cyan-900">
+    <div class="rounded-md shadow-lg">
+    <h1 class="text-3xl font-bold font-serif text-center text-blue-200 p-7">STUDENTS ADMISSION DATA VISUALIZATION</h1>
+    </div>
+    <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-center font-serif pb-5">Students by Gender</h2>
+        <canvas id="admissionChart" class="w-full"></canvas>
+
+        <p class="text-center text-gray-600 mt-4">
+            This chart visualizes gender distribution among admitted students.
+            </p>
+    </div>
+
+
+      
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-center font-serif pb-5">Students from different districts</h2>
+            <canvas id="districtchart" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the students per district.
+                </p>
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-center font-serif pb-5">Students admitted each year</h2>
+            <canvas id="trends" class="w-full"></canvas>
+
+            <p class="text-center text-gray-600 mt-4">
+                This chart visualizes the admission trends over the years.
+                </p> 
+        </div>
+
+        <div id="chartContainer" class="max-w-3xl mx-auto mt-10 bg-white shadow-md rounded-lg p-6">
+            <h2  class="text-center font-serif pb-5">Students according to different programms</h2>
+            <canvas id="popularity" class="w-full"></canvas>
+            
+            <p class="text-center text-gray-600 mt-4">
+            This chart visualizes the popular course.
+            </p> 
+        </div>
+       
+
+<div class="font-serif pl-20 pt-5 text-blue-100">
+<h2 class="font-serif font-bold">INSIGTHS DERIVED FROM THE VISUALIZATIONS</h2>
+<ul>
+    <li>I have analyized that in 2023  alot of students where addmitted in Makerere University compared to the previous years.</li>
+    <li>Most of the students are persuing a Bachelors Degree in Enterprenuership.</li>
+</ul>
+</div>
+
+<div class="font-serif pl-20 pt-5  text-blue-100">
+<h2 class="font-serif font-bold">CHALLENGES FACED AND THERE SOLUTIONS.</h2>
+<ul>
+<li>There was a challenge in writting the syntax followed when fetching json data and i had to make some consultation so that i rectfy the mistakes.</li>
+<li>I found challenge in sorting the different types of data which i want to be presented in my charts.I visisted W3Schools and i got the idea on how to fetch the data.</li>
+</ul> 
+</div>
+</body>
+<script src="script.js"></script>
+</html>
